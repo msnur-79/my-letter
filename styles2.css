@@ -1,0 +1,57 @@
+/* Set a pink background color for the page */
+body {
+    background-color: #837ecb; /* Light pink background */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the content */
+.container {
+    text-align: center;
+    background-color: rgb(239, 139, 209);
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 80%;
+    max-width: 600px;
+}
+
+/* Style for the title */
+#title {
+    font-size: 2.5rem;
+    color: rgb(25, 28, 25);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* Style for the birthday message */
+.message {
+    font-size: 24px;
+    font-weight: bold;
+    opacity: 0;
+    margin-top: 20px;
+    color: #ff6f61; /* Red for emphasis */
+    display: none; /* Initially hidden */
+    text-align: center;
+}
+
+/* Style for the button */
+button {
+    background-color: #eee3e9; /* Hot pink color */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FF1493; /* Darker pink when hovered */
+}
